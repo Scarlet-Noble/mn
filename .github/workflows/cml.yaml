@@ -28,7 +28,7 @@ jobs:
           python train.py
 
       - name: Upload Predictions Plot
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: predictions
           path: predicciones.png
